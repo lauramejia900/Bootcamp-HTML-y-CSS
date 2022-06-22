@@ -1,0 +1,55 @@
+.btn{
+    width: 130px;
+    height: 30px;
+    margin: 3px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    color: #13a18e;
+    font-weight: bold;
+    border:2px solid #13a18e;
+}
+
+.row{
+    display:flex;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+
+.col{
+    display: flex;
+    width: 350px;
+    background-color: purple;
+    flex:1;
+    border: 2px solid black;
+    color: white;
+}
+
+.nav{
+    background-color: #333333;
+    width: 1300px;
+    height: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boton{
+    background-color: #ffd966;
+    height: 30px;
+    width: 50px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0);
+    margin-left: 30px;
+}
+
+div{
+    background-color: #ffffff;
+    border: 3px solid black;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}

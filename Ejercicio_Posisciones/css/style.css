@@ -1,0 +1,18 @@
+.elementopadre{
+    border: 1px solid black;
+    height: 450px;
+
+}
+
+.elemento-principal{
+    background-color: yellow;
+    padding: 10px;
+    position: relative;
+    top:10px;
+}
+
+.elemento_hijo{
+    background-color: gray;
+    padding: 10px;
+
+}

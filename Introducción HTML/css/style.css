@@ -1,0 +1,104 @@
+/*Selectores principales
+
+etiquete {
+    propiedad: valor;
+}
+
+.clase{
+    propiedad:valor;
+}
+
+#id{
+    propiedad:valor;
+}
+
+*/
+
+h2 {
+    color:red;
+}
+
+.parrafo {
+    border: 2px dotted blue;
+
+}
+
+#enlace {
+    text-decoration: line-through;
+    cursor: progress;
+}
+
+#Casado {
+    width: 100px;
+    height: 100px;
+}
+
+/*Selectores avanzados
+
+padre hijo{
+    propiedad: valor;
+}
+
+
+
+
+*/
+
+.parrafo strong{ /*seleccionamos un strong que esta dentro de la clase parrafo*/
+    text-transform: uppercase;
+}
+
+.container > p { /*Descendiente directo*/
+    border: 1px dashed red;
+}
+
+h2.parrafo { /*tieen que cumplir con los dos selectores*/
+    color: purple;
+}
+
+input[type="text"]{ /*Selector por atributo*/
+    width: 400px;
+}
+
+input, textarea { /*para modificar varios elementos a la vez la coma funciona como y*/
+    border : 3px solid green;
+}
+
+/*PROPIEDADES DEL TEXTO*/
+
+#p_ejemplo{
+    text-align: center; /*alinea el texto como queramos*/
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*PROPIEDADES DE TAMAÑO*/
+
+.prueba_tamaño{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+
+/*PROPIEDADES BACKGROUND*/
+
+.div_background{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url("../images/perritos.jpg"); /*los puntos significan que la imagene sta en una carpeta para atras, que no esta dentrod e la carpeta donde esta el archivo*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+
+.box_model{
+    width: 100px;
+    height: 100px;
+    border: 2px solid orange;
+    padding: 30px;
+    margin:70px;
+}

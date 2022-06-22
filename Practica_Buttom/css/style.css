@@ -1,0 +1,33 @@
+.search{
+    width: 130px;
+    height: 30px;
+    margin: 3px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    color: #13a18e;
+    font-weight: bold;
+    border:2px solid #13a18e;
+}
+
+.circulo{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background-color: #13a18e ;
+    border:2px solid #13a18e;
+    border-radius: 50px;
+    font-size: xx-large;
+    text-align: center;
+    color:white;
+}
+
+.cuenta{
+    width: 150px;
+    height: 30px;
+    margin: 3px;
+    background-color: #399beb ;
+    text-align: center;
+    color:white;
+    box-shadow: 10px 5px 5px black;
+}

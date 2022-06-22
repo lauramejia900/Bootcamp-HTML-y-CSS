@@ -1,0 +1,29 @@
+.row{
+    display:flex;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+
+.col{
+    display: flex;
+    width: 350px;
+    background-color: purple;
+    flex:1;
+    border: 2px solid black;
+    color: white;
+}
+
+.col-2{
+    border: 2px solid black;
+    background-color: pink;
+    flex:2;
+    color: white;
+}
+
+
+.col-3{
+    border: 2px solid black;
+    background-color: gray;
+    flex:3;
+    color: white;
+}

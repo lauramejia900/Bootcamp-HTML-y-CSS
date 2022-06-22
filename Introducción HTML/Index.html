@@ -1,0 +1,158 @@
+<!--Si se escribe el simbolo ! y la tecla tab en automatica inicia la estructura para realizar la pagina-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Lo que el cliente no ve-->
+    <meta charset="UTF-8"> <!--Tipo de teclado, acentos, ñ, tildes-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--El tamaño en que se visualiza la pagina-->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> <!--Lo que el cliente ve, con lo que puede interactuar-->
+
+    <!--Titulos-->
+    <h1>Titulo en h1</h1> <!--Más importante, intentar que solo este una vez-->
+    <h2>Titulo en h2</h2>
+    <h3>Titulo en h3</h3>
+    <h4>Titulo en h4</h4>
+    <h5>Titulo en h5</h5>
+    <h6>Titulo en h6</h6>
+
+    <!--Parrafos-->
+    <p class="parrafo">
+        parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde voluptatibus harum nemo, numquam expedita porro ut laudantium, saepe ab, nesciunt doloribus. In eos cumque, pariatur laboriosam mollitia exercitationem temporibus?
+        <!--Parrafo lorem, se usa para indicar que va a ver un parrafo aunque no se sepa que es-->
+    </p>
+
+    <!--Enlace-->
+    <a id="enlace" href="http://google.com">    
+        Enlace <!--El nombre del enlace-->
+    </a>
+
+    <p class="parrafo">
+        Etiqueta <strong>Negrita</strong> y etiqueta <em>énfasis</em> <!--Caracteristicas del texto-->
+    </p>
+    <strong>Otro strong</strong>
+
+    <div class="container">
+        <p>Este es el primer parrafo hijo</p>
+        <div>
+            <p>Este es el parrafo nieto</p>
+        </div>
+    </div>
+
+    <p id="p_ejemplo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, deleniti est blanditiis recusandae ullam odio accusamus, autem totam architecto beatae quia amet dignissimos quasi veniam iusto aut reprehenderit a.</p>
+
+    <div class="prueba_tamaño"></div>
+
+    <div class="div_background">
+
+    </div>
+
+    <div class="box_model">CONTENIDO</div>
+
+    <h2 class="parrafo">Lista desordenada</h2>
+    <ul> <!--Lista desordenada, solo tiene biñetas-->
+        <li>Pollo</li>
+        <li>Pollo</li>
+        <li>Pollo</li>
+        <li>Pollo</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <ol> <!--Lista ordenada, tiene númerales-->
+        <li>Pollo</li>
+        <li>Pollo</li>
+        <li>Pollo</li>
+        <li>Pollo</li>
+    </ol>
+
+        <!--Etiqueta de tabla-->
+        <table>
+            <thead>
+                <tr> <!--filas-->
+                    <th> Titulo 1</th>
+                    <th> Titulo 1</th>
+                    <th> Titulo 1</th>
+                </tr>
+            </thead>
+
+            <tbody> <!--columnas-->
+                <tr>
+                    <td> columna 1.1</td>
+                    <td> columna 1.2</td>
+                    <td> columna 1.3</td>
+                </tr>
+                <tr>
+                    <td> columna 2.1</td>
+                    <td> columna 2.2</td>
+                    <td> columna 2.3</td>
+                </tr>
+        </tbody>
+        </table>
+
+        <!--Imagenes-->
+        <img src="images/imagen.jpg" alt="imagen"/> <!--Alt es alternativo si no se carga la imagen-->
+        <img src="images/perritos.jpg" alt="Perritos"/>
+
+        <!--División entre espacio y espacio horizontal-->
+        <div>
+            <p>
+                Parrafo de prueba
+            </p>
+        </div>
+
+        <!--Formularios-->
+        <form action="/accion" method="post">
+            <div>
+                <label>Titulo de input</label>
+                <!--Agrega texto-->
+                <input type="text" name="input_text"/>
+                <!--Acepta solamente numeros-->
+                <input type="number" name="input_number"/>
+                <!--contraseñas-->
+                <input type="password" name="input_password"/>
+                <!--Acepta solamente fechas-->
+                <input type="date" name="input_date"/>
+                <!--direcciones de correos electronicos-->
+                <input type="email" name="input_email"/>
+
+                <!--Input radio-->
+                <div>
+                    <input type="radio" name="estado_civil" value="Casado" id="Casado"/>
+                    <!--Cuando se tiene el mismo nombre = 'name' solo se puede seleccionar una opción-->
+                    <label for="Casado">Casado</label>
+                    <input type="radio" name="estado_civil" value="Soltero" id="Soltero"/>
+                    <label for="Soltero">Soltero</label>    
+                </div>
+            </div>
+        <!--Para chekear-->
+        <div>
+            <input type="checkbox" name="mayor_edad" id="mayoredad"/>
+            <label for="mayoredad">Mayor de edad</label>
+        </div>
+
+        <!--Selector, varias opciones-->
+        <div>
+            <select name="hobbie">
+                <option>Andar en bici</option>
+                <option>Nadar</option>
+                <option>Correr</option>
+            </select>
+        </div>
+
+        <!--Boton para enviar el formulario-->
+        <div>
+            <input type="submit" value="Enviar"/>
+        </div>
+
+        </form>
+
+        <header>
+            <nave>
+                
+            </nave>
+        </header>
+</body>
+</html>

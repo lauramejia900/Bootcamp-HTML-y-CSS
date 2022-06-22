@@ -1,0 +1,38 @@
+#div_1{
+    margin: 1px;
+    border: 1px;
+    background-color: black;
+}
+
+h1{
+    font-weight: bolder;
+    color: white;
+    font-family: cursive;
+
+}
+
+span{
+    font-weight: bolder;
+    color: aqua; 
+}
+
+#div_2{
+    margin: 1px;
+    background-color: purple; 
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#div_3{
+    margin: 1px;
+    background-color: aqua; 
+}
+
+h3{
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+}
